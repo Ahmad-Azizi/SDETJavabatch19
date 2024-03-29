@@ -1,0 +1,16 @@
+What is a Class?
+    is simply a file that contains a lot of things methods
+    are one of them. Each method contains code to do something.
+    when we want our computer to do that specific task,
+    we create the object of that class, and we call
+    that method.
+Method:
+    Method is a collection of java statements which are executed
+    by the computer when we call that method.
+
+
+
+ ReturnType MethodName( DataType var){
+
+
+ }
