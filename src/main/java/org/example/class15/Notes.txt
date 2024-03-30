@@ -1,0 +1,12 @@
+Access Modifiers:
+    Access modifiers are basically keywords in java that
+    help us control what can be accessed outside
+    a class like fields and methods.
+    private
+    protected
+    public
+Constructors:
+    Constructors help us build the object of a class easily. They
+    are a special block of code which is created to give initial
+    values to the instance variables.
+
