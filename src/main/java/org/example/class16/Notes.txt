@@ -1,0 +1,13 @@
+Constructors:
+    Constructors help us build the object of a class easily.
+    When we build the object most of the time, it means we are
+    initializing the instance variables.
+Why should we use constructors?
+        1) Its more readable, neat and clean.
+        2) Its more secure.
+
+Rules:
+    1) Constructors do not have return types not even void.
+    2) Constructors have the same name as class name.
+    3) Constructors can have parameters like methods.
+    4) We can use access modifiers as well with Constructors.
