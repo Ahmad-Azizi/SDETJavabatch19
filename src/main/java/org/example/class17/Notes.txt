@@ -1,0 +1,12 @@
+Inheritance:
+    It is one of the main pillars of OOPs. It
+    allows one class to acquire the fields and
+    the properties of another class.
+Why should we use Inheritance?
+    It helps us save a lot of code repetition.
+Rules:
+    1) All the private members (instance vars,method) Can't be used
+    through inheritance.
+Types of inheritance:
+    Single Inheritance:
+SuperKeyword:
