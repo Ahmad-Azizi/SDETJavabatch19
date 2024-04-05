@@ -19,7 +19,7 @@ Instance Variables:
     The variables which are created outside of blocks of code but inside
     a class are called instance variables.
 Upside:
-    These variables can be used anywhere inside the class.
+    These variables can be used anywhere inside the class except static methods.
 Downside:
     They keep on occupying the memory even if you are done using them.
 When should we use instanced variables?

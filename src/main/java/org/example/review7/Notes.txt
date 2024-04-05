@@ -1,0 +1,23 @@
+Methods:
+    Are blocks of code which have names, and they
+    contain java code. We can call these methods
+    to execute all the code inside them.
+Why should we use methods:
+    They help us avoid code duplication in multiple
+    classes. If we need to run a piece of code again
+    and again in multiple classes, we can simply create
+    a method and can reuse it in all the classes.
+Types of methods:
+    static method
+    instance methods.
+static methods:
+    We call these methods by just writing the name of
+    the class. They cannot use instance variables.
+ instance methods:
+    Require us to create an object of the class.
+Interview Question:
+    Can we use instance variables in static methods?
+    No, we can't do this because instance variables must be initialized
+    first before we can start using them. Instance variables belong to
+    object and static belongs to class.
+Types of variables:
