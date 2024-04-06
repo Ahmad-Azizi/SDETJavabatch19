@@ -1,0 +1,18 @@
+Super Keyword:
+    Super keyword is used to explicitly refer to the instance variables
+    from the parent class. It is also used to call the constructor from
+    the parent class.
+
+How Inheritance?
+    Whenever we use Inheritance, the objects of the parent classes
+    are created first.
+    If we do not create any constructor, java creates the default
+    ones. It uses these default constructors to create these
+    objects, however, when we create our own constructor, then java
+    is not going to do this for us, and we have to do this ourselves.
+Method Overloading:
+    Method overloading allows us to have multiple methods with the same
+    name inside a class.
+Why should we Overload?
+    It gives more flexibility to users. Users don't need to memorize a
+     lot of different method names.
