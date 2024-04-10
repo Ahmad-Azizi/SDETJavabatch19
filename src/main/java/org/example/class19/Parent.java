@@ -4,7 +4,7 @@ public  class Parent {
 
     private final String name="Albarran";
 
-   void marry(){
+    void marry(){
 
         System.out.println("Marry the girl we chose for you");
     }
