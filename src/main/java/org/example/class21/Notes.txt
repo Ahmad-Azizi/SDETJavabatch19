@@ -1,0 +1,10 @@
+ Interface:
+    Interfaces are like contracts They can contain abstract
+    methods and constant variables.
+When should we use interface?
+    When classes are closely related to each other, we should go
+    with abstract classes as we will be able to use inheritance to
+    avoid code repetition, and when child classes are not related to
+    each other, then we should go with interfaces.
+Encapsulation:
+
