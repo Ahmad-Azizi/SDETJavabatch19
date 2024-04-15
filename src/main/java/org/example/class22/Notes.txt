@@ -1,0 +1,113 @@
+What is OOPS:
+    Its methodology for a programming language which is based
+    on creating objects of classes and follows 4 main
+    pillars which are inheritance, polymorphism,
+    abstraction, and encapsulation.
+Why should we Follow OOPS?
+    1) IT helps us write code that can reused in other classes
+    without copying and pasting that code.
+    2) It helps us reduce the duplicate code in multiple
+    classes with the help of inheritance.
+    3) We can use Polymorphism to execute the same name methods
+    from multiple child classes.
+    4) Abstraction helps us write modular code and helps us
+    create contracts so that everyone can be on the same page.
+    5) Encapsulation help us write secure code by making the
+    fields private and creating getter setter methods.
+What is a Class:
+    Classes are files which contain fields methods constructors and many
+    other things. They also act as a blueprint for objects. They have methods which
+    we can reuse in other classes.
+What is an Object:
+    An object is an instance of a class. It is created from a class. It has fields
+    and method which are defined by a class.
+What are fields/properties/attribute/instance variables of a class?
+    They are variables that help store the state/Info about the object of an object.
+What is a Method?
+    Its block of code that performs a specific action when we call it.
+    There are two main types of methods, static methods and instance methods.
+    Static methods are mostly used as utility methods.
+String class:
+    The most widely used class in entire java. There are a lot of coding interview questions
+    which are asked from this class.
+Interview Coding questions:
+    Count the Number of Words in a String. Write a function to count the
+    number of words in a given string. Words are separated by spaces or punctuation.
+    For example, the input “Hello, world!” should return 2.
+ Types of Variables:
+    There are 3 types of variables. Local, instance, static.
+Local variables:
+    The variables that we declare inside a block of code like a method or a loop or a constructor
+    are called local variables.
+Upside:
+    They occupy the memory for the shortest period of time.
+Downside:
+    They have very limited accessibility. Can only be used inside the block of code.
+Instance variables:
+    They are created inside a class but outside of blocks of code.
+Upside:
+    We can access and use these variables inside any instance method. We can also use it to store different values
+    for the objects that we create from a class.
+Downside:
+    They stay in the memory as long as the object stays in the memory.
+static:
+    All the variables which are outside of blocks of code and have static keyword with them are called static variables.
+Upside:
+    Can be accessed inside the class in any block of code can be accessed in static or non-static methods.
+Downside:
+    They occupy the memory for longest.
+Access Modifiers:
+    These are keywords that help us control the accessibility of classes constructors methods variables.
+    There are four access levels in java. private, default, protected, public.
+private:
+    Private access modifier limits the accessibility of class members to only that class.
+default:
+    These memebers will be accessible within the same packge.
+protected:
+    Can be accessed: in the same class, all classes of the same package, child classes from other packages.
+public:
+    Can be accessed from any class.
+Constructors:
+    Constructors are blocks of code similar to methods which help us initial instance variables.
+Rules:
+    1) Constructors do not have return types.
+    2) They have same name as class name.
+    3) no static keyword with a constructor.
+"this" keyword:
+    "this" keyword is used to access the instance variables of a class whenever we have same name local variables as well.
+    this keyword is also used to use one constructor inside another one.
+what is a default constructor?
+    When we don't create one Java creates one automatically.
+inheritance:
+    Its one of the main pillars of OOPs. It allows us to create new classes using the exciting ones. Which can help us
+    save a lot of code repetitions. Except private members and constructor, a class can inherit everything. There are 4 types of
+    inheritance single multilevel hierarchical and hybrid.
+Disadvantage of inheritance:
+    The main disadvantage of using inheritance is that the two classes (parent and child class) get tightly coupled.
+    This means that if we change the code of parent class, it will affect to all the child classes which are inheriting/deriving
+    the parent class, and hence, it cannot be independent of each other.
+super keyword:
+    It is similar to "this". It is used to call the methods or fields from the parent class and we can use it to call the constructor
+    of the parent class as well.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
