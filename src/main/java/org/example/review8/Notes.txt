@@ -1,0 +1,75 @@
+What is Method Overloading?
+    When  we have multiple methods with the same name but with
+    different parameters in a class, it's called method
+    overloading.
+Why should we overload method?
+    Whenever we need to create multiple methods to handle
+    different data types, we don't need to give them new
+    names we can use the same name for those methods
+    which creates a seamless experience, for example, the
+    System.out.println can be used to print the value of
+    any data type.
+Rules:
+    1) We can only overload by changing parameters.
+    2) Changing the access modifiers or the return types
+    or the static keyword or final keyword is not going to
+    play any role in overloading.
+    3) We can change the parameters in three ways.
+    By changing the number of parameters.
+    By changing the data types of the parameters.
+    By Changing the sequence of parameters.
+What is Method Overriding?
+    when we have the same name method in parent and child class but different
+    logic, it's called method overriding.
+Why should we override methods?
+    if the child does not like the implementation of the parent
+    class it has the flexibility.
+Rules:
+    1) The header of the method that we are overriding  should be same
+     as the header of the method in the parent class.
+     2) We can't override the static methods.
+     3) private methods can't be overridden.
+     4) Constructors can't be overridden.
+What is PolyMorphism:
+    It allows us to write dynamic code. Same method when called using a different
+    object behaves differently.
+Why should we use PolyMorphism?
+    It helps us avoid code repetition if we are performing the same operation
+    in a different way we do not need to copy paste the entire code we can use
+    PolyMorphism.
+Rules:
+    1) We Must have a common parent either a class or an interface.
+    2) Without overriding methods, PolyMorphism is not possible.
+"final" keyword:
+    There are 3 uses of the final keyword.
+    1) when used with a variable once the value to the variable is assigned, it can't be changed.
+    2) When used with a method no child class will be able to override that method.
+    3) When used with a class no other class will be able to inherit from that class.
+Abstraction:
+    Abstraction allows simplifying coding. We can use Abstraction to focus only on the functionality instead of the implementation.
+Why Use Abstraction?
+    It helps us write moduler code and help us keep everyone on the same page.
+Rules:
+    1) we can't have body with abstract methods.
+    2) final keyword can't be used with abstract methods.
+    3) private keyword can't be used with abstract methods.
+    4) static keyword is also not allowed as we can't override static methods.
+    5) We can't create the object of abstract class.
+Interface:
+    They are very similar to classes but can only have public static final variables and all the methods by default are
+    abstract.
+Rules:
+    1) We cannot have instance variables.
+    2) We cannot have constructors.
+    3) We cannot create the object of interfaces
+    4) We can't have instance methods.
+How do we know when to use interface and when to use an abstract class?
+    interface - when we don't want to have inheritance
+Encapsulation:
+    Encapsulation says make your fields private and create getter setter methods.
+Why Encapsulation?
+    It helps us write secure code.
+
+
+
+
