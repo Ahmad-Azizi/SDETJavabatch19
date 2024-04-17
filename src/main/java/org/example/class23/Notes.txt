@@ -1,0 +1,14 @@
+Collections framework:
+   Collections framework is a collection of classes and
+   interfaces which helps us store large amounts of data
+   easily.
+Why do we need a Collections framework?
+    1) Arrays are fixed in size
+    2) There are no built-in methods in arrays to manipulate the
+    data.
+Note:
+    1)Arrays are very efficient ArrayList requires at least 4 times the
+    memory of an array to store the same amount of data.
+    2) They offer the fastest processing.
+    3) ArrayList is also built using arrays internally.
+
