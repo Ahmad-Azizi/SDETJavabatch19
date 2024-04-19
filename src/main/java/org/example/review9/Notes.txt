@@ -1,0 +1,44 @@
+Collections Framework:
+    A Collection Framework is a collection of
+    classes and interfaces, which helps us store
+    large amounts of data easily.
+Why should we use the Collection Framework?
+    1)All the data structures in the Collection Framework
+    are dynamic. We don't need to specify the size
+    like arrays. They can grow and shrink automatically.
+    2) As these are classes, we have a lot of methods
+    already present that we can use unlike arrays.
+List:
+    1) Insertion order is maintained.
+    2) Duplicate data is allowed.
+ArrayList:
+    Upside:
+        Accessing the elements is Fast.
+    Downside:
+        Very Slow when we add or remove elements.
+LinkedList:
+    Upside:
+        Really fast when we have to add or remove data from the list.
+    Downside:
+        Very Slow when accessing the elements
+
+Set:
+    1)No Duplicates are allowed.
+    2) We can't use indexes to access the data from a set.
+HashSet:
+    Upside:
+        It's fast.
+    Downside:
+      It does not remember the insertion order.
+LinkedHashSet:
+    Upside:
+       it remembers the insertion order.
+    Downside:
+        A little slower than Hashset.
+TreeSet:
+    Upside:
+        It keeps the data sorted. Searching elements is rapid as the
+        data is organized.
+    Downside:
+        insertion is very slow.
+
