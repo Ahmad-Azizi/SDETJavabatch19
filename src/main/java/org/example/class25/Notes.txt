@@ -1,0 +1,10 @@
+Maps:
+    Maps allow us to store two things at a time.
+    One is called the key and the other are called
+    the value. There are three main types of maps
+    HashMap
+    LinkedHashMap
+    TreeMap
+
+
+
