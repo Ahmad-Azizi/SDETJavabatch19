@@ -1,0 +1,14 @@
+FileHandling:
+    FileHandling simplify means reading/writing data to
+    files.
+Steps:
+   1) We need to know the Location of the file.
+   2) Navigate to that location.
+   3) We need proper software/programs to read/write to the file.
+Configuration Files:
+    These are used to store sensitive information about the projects/frameworks
+    As a Tester we will be storing our usernames, passwords, urls, browser etc.
+
+
+
+
